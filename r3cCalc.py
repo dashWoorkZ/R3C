@@ -57,7 +57,7 @@ style.configure("privacyLight.TLabel", relief=tk.FLAT, takefocus=False, bd=5, hi
 style.configure("lawfulLight.TFrame",  relief=tk.FLAT,takefocus=False, background="#ffe4c4")
 
 # <<< R3C Calc v1 Styles >>>
-style.configure("mainFrame.TFrame", font=("Times New Roman", 10, "bold"), relief=tk.FLAT, takefocus=False,  highlightthickness=5, bd=5, background="#5de67f", foreground="#1e90ff", highlightbackground='##ffebcd', highlightcolor='#48d1cc', anchor="center", justify="center", )
+style.configure("mainFrame.TFrame", font=("Times New Roman", 10, "bold"), relief=tk.FLAT, takefocus=False,  highlightthickness=5, bd=5, background="#5de67f", foreground="#1e90ff", highlightbackground='##ffebcd', highlightcolor='#48d1cc', anchor="center", justify="center")
 style.configure("bandValue.TLabel",relief=tk.RAISED, font=("Times New Roman", 12, "bold"), highlightbackground='#ffa500', pady=10, highlightcolor='#deb887', highlightthickness=3, takefocus=True, justify="center", anchor="center")
 style.configure("bandColour.TLabel",relief=tk.RAISED, direction="below", activebackground="#00ffff",  activeforeground="#347898", font=("Times New Roman", 11, "bold"),  background="#fb8604", foreground="#ffff00",  highlightbackground='#48d1cc', highlightcolor='#ffebcd', highlightthickness=3, takefocus=True, justify="center", anchor="center")
 style.configure("bandTitle.TLabel",relief=tk.RAISED, direction="below", bd=5, activebackground="#3d9fe0",  activeforeground="#4f788", font=("Times New Roman", 11, "bold"),  background="#5de67f", foreground="#00ffff", highlightbackground='#3d9fe0', highlightcolor='#4f788', highlightthickness=5, takefocus=True, justify="center", anchor="center")
@@ -1191,7 +1191,7 @@ def B6_TCR_selected(choice) -> str:
 
 def getMain():
         # Center The Main Program Window When Launched
-        width = 335
+        width = 360
         height = 167
         x = (window.winfo_screenwidth()//2)-(width//2)
         y = (window.winfo_screenheight()//2)-(height//2)
@@ -1210,7 +1210,7 @@ def getMain():
 
 def showThree():
         # Center The Main Program Window When Launched
-        width = 325
+        width = 360
         height = 332
         x = (window.winfo_screenwidth()//2)-(width//2)
         y = (window.winfo_screenheight()//2)-(height//2)
@@ -1231,7 +1231,7 @@ def showThree():
 
 def showFour():
         # Center The Main Program Window When Launched
-        width = 335
+        width = 360
         height = 332
         x = (window.winfo_screenwidth()//2)-(width//2)
         y = (window.winfo_screenheight()//2)-(height//2)
