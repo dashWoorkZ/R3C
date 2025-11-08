@@ -1,3 +1,4 @@
+<img src="imgs/r3c_logo.png">
 # R3C Calc v1
 The latest addition to our Python Program collection, 
 R3C Calc v1 is a Resistor Colour Code Calculator for Three Band, Four Band, five Band and Six Band Resistors.
